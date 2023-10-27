@@ -1,0 +1,98 @@
+/* Reset some default styles for better control */
+html{
+    scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a-left{
+    width: 50%;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+#services{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+strong{
+    margin: 10px 0;
+}
